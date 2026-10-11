@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Njuguna Kagia | Cybersecurity Portfolio</title>
+    <script src="https://jsdelivr.net"></script>
+    <style>
+        body { background-color: #0f172a; color: #e2e8f0; font-family: monospace; }
+        .cyber-border { border: 1px solid #1e293b; }
+        .accent-glow:hover { border-color: #3b82f6; box-shadow: 0 0 15px rgba(59, 130, 246, 0.2); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-blue-500 selection:text-white">
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 bg-[#0f172a]/90 backdrop-blur-md border-b border-slate-800 z-50 px-6 py-4">
+        <div class="max-w-5xl mx-auto flex flex-wrap justify-between items-center">
+            <a href="#home" class="text-blue-400 font-bold tracking-wider text-lg">&lt; KAGIA.SEC &gt;</a>
+            <div class="flex space-x-6 text-sm">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#resume" class="hover:text-blue-400 transition">Resume</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#challenges" class="hover:text-blue-400 transition">Labs</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO / HOME SECTION -->
+    <section id="home" class="max-w-5xl mx-auto px-6 pt-20 pb-16 flex flex-col md:flex-row items-center gap-12 w-full">
+        <div class="w-48 h-48 rounded-xl bg-slate-800 border-2 border-dashed border-slate-700 flex items-center justify-center shrink-0">
+            <span class="text-slate-500 text-sm text-center px-4">[ Place Your Profile Photo Here ]</span>
+        </div>
+        <div class="flex-1">
+            <h1 class="text-4xl font-extrabold text-white mb-2 tracking-tight">JOSEPH NJUGUNA KAGIA</h1>
+            <p class="text-blue-400 font-semibold mb-6 text-lg">Cyber Security Analyst | SOC Engineer | Penetration Tester</p>
+            <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-6 text-slate-300 leading-relaxed shadow-sm">
+                <p class="font-semibold text-blue-400 mb-2">// Personal Branding Statement:</p>
+                "I am a Cybersecurity Entrepreneur building a resilient African digital economy by equipping enterprise organizations with continuous, scalable threat defense mechanisms modeled after global security standards."
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME OUTLINE SECTION -->
+    <section id="about" class="bg-slate-900/40 border-y border-slate-800/60 w-full py-16">
+        <div id="resume" class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-2">
+                <span class="text-blue-500">01.</span> Resume Outline
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Education & Certs -->
+                <div class="md:col-span-1 space-y-6">
+                    <div>
+                        <h3 class="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3">Education</h3>
+                        <p class="text-white font-medium text-sm">B.Sc. Information Technology</p>
+                        <p class="text-xs text-slate-400">JKUAT · Final Year Student (Ongoing)</p>
+                        <p class="text-white font-medium text-sm mt-3">Professional Diploma in Cybersecurity</p>
+                        <p class="text-xs text-slate-400">RITA Africa · 2025</p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3">Certifications</h3>
+                        <ul class="text-xs text-slate-300 space-y-2">
+                            <li class="flex items-center gap-2">✓ Google Professional Cyber Cert</li>
+                            <li class="flex items-center gap-2">✓ AWS Cloud Practitioner (CCP)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Technical Skills Matrix -->
+                <div class="md:col-span-2">
+                    <h3 class="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3">Technical Skills Matrix</h3>
+                    <div class="space-y-3 text-xs">
+                        <p><strong class="text-blue-400">Offensive Security & Pentesting:</strong> Metasploit, Burp Suite, Nmap, Vulnerability Automation, Network Reconnaissance Pipelines, Exploitation Frameworks.</p>
+                        <p><strong class="text-blue-400">Defensive Security & SOC Operations:</strong> Wireshark, Endpoint Telemetry Engineering, Host-level Detection Mechanisms, Traffic Analysis, Packet Inspection.</p>
+                        <p><strong class="text-blue-400">Operating Systems & Internals:</strong> Windows Internals, Registry Architecture (HKCU/HKLM), Advanced Local Auditing Policies (auditpol), Linux Systems Administration.</p>
+                        <p><strong class="text-blue-400">Development & Automation:</strong> Python Scripting, Data Parsing Frameworks, Log Sanitation Tools, Command-Line (CLI) Automation.</p>
+                        <p><strong class="text-blue-400">Frameworks & Standards:</strong> MITRE ATT&CK Mapping, OWASP Top 10, Enterprise Auditing Frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="max-w-5xl mx-auto px-6 py-16 w-full">
+        <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-2">
+            <span class="text-blue-500">02.</span> Featured Security Projects
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="projects-container">
+            <!-- Project 1 -->
+            <div class="bg-slate-900/50 rounded-xl p-6 border border-slate-800 accent-glow transition flex flex-col justify-between">
+                <div>
+                    <span class="text-blue-500 text-xs font-bold tracking-wider uppercase">Project 01</span>
+                    <h3 class="text-lg font-bold text-white mt-1 mb-3">Vulnerability Scanning Automation Pipeline</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">Developed a modular Python automation utility engineered to ingest, parse, and clean raw unstructured text logs generated from active network scanner devices. Built using regular expressions and custom filtering arrays to group high-risk threat indicators, dramatically minimizing infrastructure attack vector discovery duration.</p>
+                </div>
+                <span class="text-[10px] text-blue-400/80 bg-blue-950/40 border border-blue-900/40 px-2 py-1 rounded w-fit">Python / Data Parsing</span>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-slate-900/50 rounded-xl p-6 border border-slate-800 accent-glow transition flex flex-col justify-between">
+                <div>
+                    <span class="text-blue-500 text-xs font-bold tracking-wider uppercase">Project 02</span>
+                    <h3 class="text-lg font-bold text-white mt-1 mb-3">Host-Level Telemetry & Detection Engineering Lab</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">Designed a persistent corporate host simulation infrastructure inside a virtual lab framework. Configured custom tracking logic to map abnormal administrative behaviors directly to specific techniques within the MITRE ATT&CK knowledge base, providing defensive engineering practices with structured diagnostic insight.</p>
+                </div>
+                <span class="text-[10px] text-blue-400/80 bg-blue-950/40 border border-blue-900/40 px-2 py-1 rounded w-fit">MITRE ATT&CK / Telemetry</span>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="bg-slate-900/50 rounded-xl p-6 border border-slate-800 accent-glow transition flex flex-col justify-between">
+                <div>
+                    <span class="text-blue-500 text-xs font-bold tracking-wider uppercase">Project 03</span>
+                    <h3 class="text-lg font-bold text-white mt-1 mb-3">Network Traffic Analysis & C2 Isolation Matrix</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">Utilized protocol analysis utilities to inspect traffic streams across internal subnet interfaces. Practiced detecting and isolating hidden command-and-control communication signatures, decoding abnormal payload variables, and tracking unauthorized network data exfiltration scripts trying to reach outside domains.</p>
+                </div>
+                <span class="text-[10px] text-blue-400/80 bg-blue-950/40 border border-blue-900/40 px-2 py-1 rounded w-fit">Wireshark / Packet Analysis</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAB CHALLENGES SECTION -->
+    <section id="challenges" class="bg-slate-900/40 border-t border-slate-800/60 w-full py-16 flex-1">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+                <span class="text-blue-500">03.</span> Advanced Lab Writeups & CTFs
+            </h2>
+            <p class="text-xs text-slate-400 mb-8">// Analytical breakdown of specific challenges solved</p>
+            
+            <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-8 shadow-sm">
+                <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4 mb-6">
+                    <div>
+                        <span class="text-xs text-blue-500 font-bold uppercase tracking-wider">Lab Writeup #01</span>
